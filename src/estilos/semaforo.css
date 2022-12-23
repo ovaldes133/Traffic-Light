@@ -1,0 +1,79 @@
+
+.contenedor-semaforo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.semaforo{
+    width:200px ;
+    height: 420px;
+    background-color: black;
+    margin-top: 100px;
+    border-radius: 30px ;
+    border: 10px solid #7ce011;
+   
+  
+}
+
+.red{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-color: red;
+    margin-top: 18px;
+    margin-left: 40px;
+    
+   
+}
+
+.yellow{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-color: rgb(229, 255, 0);
+    
+    margin-top: 10px;
+    margin-left: 40px;
+    
+      
+}
+
+.green{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-color: rgb(16, 228, 8);
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#encendida-rojo{
+    box-shadow: 0 0 50px 30px rgb(243, 50, 50)
+}
+
+
+
+#encendida-amarilla{
+    box-shadow: 0 0 50px 30px rgb(169, 223, 31)
+}
+
+
+
+#encendida-verde{
+    box-shadow: 0 0 50px 30px rgb(16, 239, 16)
+}
+
+#apagada-roja{
+    opacity: .15;
+}
+
+#apagada-amarilla{
+    opacity: .15;
+}
+         
+#apagada-verde{
+    opacity: .15;
+}
